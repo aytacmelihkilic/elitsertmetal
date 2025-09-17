@@ -8,23 +8,7 @@ function callPhone() {
 function sendEmail() {
     const email = "info@elitsertmetal.com";
     const subject = "Elit Sert Metal - İletişim";
-    const body = `Merhaba,
-
-Elit Sert Metal hizmetleriniz hakkında bilgi almak istiyorum.
-
-Aşağıdaki konularda detaylı bilgi alabilir miyim:
-- Ürün yelpazeniz
-- Fiyat listesi
-- Teslimat süreleri
-- Kalite standartları
-
-İletişim bilgilerim:
-Telefon: 
-E-posta: 
-
-Teşekkürler.
-
-Saygılarımla,`;
+    const body = "";
     
     const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailtoLink;
